@@ -82,9 +82,11 @@ CHARACTER SET utf8
 COLLATE utf8_general_ci;
 ```
 ### Connect to databese with Sequql Pro or other softwear
+```
  +1) mysql -u root -p
  +2) standart pass: flatfy
  +3) use mysql;
  +4) UPDATE mysql.user SET authentication_string = PASSWORD('newpass'), password_expired = 'N' where User = 'root' AND Host = '%';
  +5) UPDATE mysql.user SET authentication_string = PASSWORD('newpass'), password_expired = 'N' where User = 'root' AND Host = 'localhost';
  +6) Update credentials to file: search_console_sql.py
+```
