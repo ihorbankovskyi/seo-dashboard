@@ -7,9 +7,9 @@ echo '/swap none swap sw 0 0' >> /etc/fstab
 
 sudo apt-get install mailutils -y
 sudo apt-get install postfix -y
-cp /root/seo-search-console-api/configs/main.cf /etc/postfix/main.cf
+cp /home/ubuntu/seo-dashboard/configs/main.cf /etc/postfix/main.cf
 /etc/init.d/postfix restart
-cp /root/seo-search-console-api/configs/aliases /etc/
+cp /home/ubuntu/seo-dashboard/configs/aliases /etc/
 newaliases
 
 wget https://repo.percona.com/apt/percona-release_0.1-4.$(lsb_release -sc)_all.deb
@@ -33,7 +33,7 @@ sudo apt-get install -y adduser libfontconfig
 sudo dpkg -i grafana_5.0.1_amd64.deb
  sudo /bin/systemctl daemon-reload
  sudo /bin/systemctl enable grafana-server
-cp /root/seo-search-console-api/configs/grafana.ini /etc/grafana/
-cp /root/seo-search-console-api/configs/grafana.db /var/lib/grafana/
+cp /home/ubuntu/seo-dashboard/configs/grafana.ini /etc/grafana/
+cp /home/ubuntu/seo-dashboard/configs/grafana.db /var/lib/grafana/
 chown grafana:grafana /var/lib/grafana/grafana.db
 sudo systemctl enable grafana-server.service
