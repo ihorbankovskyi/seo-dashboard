@@ -1,25 +1,4 @@
-""""
 
-LLLLLLLLLLL                  UUUUUUUU     UUUUUUUU     NNNNNNNN        NNNNNNNN
-L:::::::::L                  U::::::U     U::::::U     N:::::::N       N::::::N
-L:::::::::L                  U::::::U     U::::::U     N::::::::N      N::::::N
-LL:::::::LL                  UU:::::U     U:::::UU     N:::::::::N     N::::::N
-  L:::::L                     U:::::U     U:::::U      N::::::::::N    N::::::N                  uuuuuu    uuuuuu         aaaaaaaaaaaaa
-  L:::::L                     U:::::D     D:::::U      N:::::::::::N   N::::::N                  u::::u    u::::u         a::::::::::::a
-  L:::::L                     U:::::D     D:::::U      N:::::::N::::N  N::::::N                  u::::u    u::::u         aaaaaaaaa:::::a
-  L:::::L                     U:::::D     D:::::U      N::::::N N::::N N::::::N                  u::::u    u::::u                  a::::a
-  L:::::L                     U:::::D     D:::::U      N::::::N  N::::N:::::::N                  u::::u    u::::u           aaaaaaa:::::a
-  L:::::L                     U:::::D     D:::::U      N::::::N   N:::::::::::N                  u::::u    u::::u         aa::::::::::::a
-  L:::::L                     U:::::D     D:::::U      N::::::N    N::::::::::N                  u::::u    u::::u        a::::aaaa::::::a
-  L:::::L         LLLLLL      U::::::U   U::::::U      N::::::N     N:::::::::N                  u:::::uuuu:::::u       a::::a    a:::::a
-LL:::::::LLLLLLLLL:::::L      U:::::::UUU:::::::U      N::::::N      N::::::::N                  u:::::::::::::::uu     a::::a    a:::::a
-L::::::::::::::::::::::L       UU:::::::::::::UU       N::::::N       N:::::::N      ......       u:::::::::::::::u     a:::::aaaa::::::a
-L::::::::::::::::::::::L         UU:::::::::UU         N::::::N        N::::::N      .::::.        uu::::::::uu:::u      a::::::::::aa:::a
-LLLLLLLLLLLLLLLLLLLLLLLL           UUUUUUUUU           NNNNNNNN         NNNNNNN      ......          uuuuuuuu  uuuu       aaaaaaaaaa  aaaa
-
-https://team.lun.ua/?filtered=vacancies
-
-""""
 
 # -*- coding: utf-8 -*-
 # encoding=utf8
