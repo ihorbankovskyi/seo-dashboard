@@ -35,5 +35,5 @@ sudo dpkg -i grafana_5.0.1_amd64.deb
  sudo /bin/systemctl enable grafana-server
 sudo cp /home/ubuntu/seo-dashboard/configs/grafana.ini /etc/grafana/
 sudo cp /home/ubuntu/seo-dashboard/configs/grafana.db /var/lib/grafana/
-chown grafana:grafana /var/lib/grafana/grafana.db
+sudo chown grafana:grafana /var/lib/grafana/grafana.db
 sudo systemctl enable grafana-server.service
