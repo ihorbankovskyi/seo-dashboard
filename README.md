@@ -15,3 +15,6 @@ You can download queries from Google Search Console using API and view statistic
 
 ## Use TMUX
 https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
+
+## Use Screen for all day parsing 
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-screen-on-an-ubuntu-cloud-server
