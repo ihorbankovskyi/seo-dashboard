@@ -110,4 +110,3 @@ def main():
 
 if __name__ == '__main__':
   main()
-/Users/Ihor/PycharmProjects/seo-dashboard
